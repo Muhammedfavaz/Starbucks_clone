@@ -7,6 +7,9 @@ body{
     margin: 0px;
    
 }
+.load-item_respons{
+    display: none;
+}
 
 .main-head{
     z-index: 999;
@@ -775,12 +778,11 @@ header ul   :active{
     .logo img{
         width:60px;
         margin-bottom: 85px;
-        margin-left: 136px;
+        margin-left: 203px;
 
     }
     header ul {
-        padding-left: 21px;
-        margin-left: -230px;
+        margin-left: -240px;
         margin-top: 107px;
     } 
     header ul a{
@@ -823,28 +825,7 @@ header ul   :active{
         font-size: 12px;
     }
     .load-item{
-        height: 1050px;
-        
-    }
-    .item-bar{
-        width: 100%;
-    }
-    .item-bar1{
-        flex-direction: column;
-        align-items: center;
-    }
-    .item-bar h2{
-        margin-left: 10px;
-        font-size: 21px;
-    }
-    .a1-img img{
-        width: 100px;
-        height: 100px;
-    }
-      
-    .item-bar .a1-img{
-        margin-left: 50px;
-       
+        display: none;
     }
     .mini-cat h2{
         margin-left: -99px;
@@ -854,8 +835,15 @@ header ul   :active{
     .menu a{
         display: none;
     }
+    .leaf{
+
+        width: 0%;
+        padding-left: 0px;
+    }
     .leaf img{
-        margin-left: -283px;
+        
+
+        margin-left: 75px;
         margin-top: -35px;
     }
     .card-02{
@@ -949,6 +937,48 @@ header ul   :active{
     .main-footer{
         display: none;
     }
+
+
+    .load-item_respons{
+        display: block;
+        display: flex;
+        padding-bottom: 145px;
+        justify-content: center;
+        
+
+        
+    }
+    .item-bar2{
+        
+        display: flex;
+        justify-content: space-evenly;
+        
+        
+    }
+    .load-item_respons img{
+        margin-left: 30px;    
+    }
+    .load-item_respons .item-bar2{
+        margin-left: 8px;
+    }
+    .load-item_respons img{
+        width: 50%;
+        height: 50%;
+    }
+    .load-item_respons p{
+        font-size: 17px;
+        color: #000;
+    }
+    .load-item_respons a{
+        text-decoration: none;
+    }
+    .load-item_respons p{
+        margin-left: 35px;
+    }
+    .load-item_respons h3{
+        margin-left: 55px;
+    }
+
     
 } 
 
