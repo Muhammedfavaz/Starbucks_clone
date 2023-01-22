@@ -775,14 +775,19 @@ header ul   :active{
         position: relative;
         height: 235px;
     }
+    .logo{
+        display: flex;
+        align-items: center;
+
+    }
     .logo img{
         width:60px;
         margin-bottom: 85px;
-        margin-left: 203px;
+        margin-left: 165px;
 
     }
     header ul {
-        margin-left: -240px;
+        margin-left: -215px;
         margin-top: 107px;
     } 
     header ul a{
@@ -836,16 +841,16 @@ header ul   :active{
         display: none;
     }
     .leaf{
+       display: none;
 
-        width: 0%;
-        padding-left: 0px;
+        
     }
-    .leaf img{
+    /* .leaf img{
         
 
         margin-left: 75px;
         margin-top: -35px;
-    }
+    } */
     .card-02{
         display: none;
     }
@@ -862,8 +867,8 @@ header ul   :active{
         margin: auto;
     }
     .phone{
-        display: inline;
-        margin-left: 10px;
+        display: flex;
+        justify-content: center;
         
     }
     .phone button{
@@ -871,7 +876,6 @@ header ul   :active{
         height:35px ;
         border-radius: 50px;
         border: 1px solid rgb(15, 0, 0);
-        margin-left: 171px;
         margin-top: 8px;
         background:#1e3932 ;
         color: #ffffff;
