@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Oswald:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&family=Fredoka+One&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&family=Fredoka+One&family=Oswald:wght@200&display=swap');
 
 
 body{
     margin: 0px;
    
 }
+
 .main-head{
     z-index: 999;
     position: fixed ;
@@ -160,16 +162,29 @@ header ul   :active{
     height: 111px;
     border-radius: 100%;
     
-
 }
 .a1-img  :hover{
     border: 1.5px solid rgb(255, 255, 255);
     
 }
-.a2-nme{
+.item-bar1 a{
+    text-decoration: none;
+    color: #000;
+    
+}
+.item-bar1 p{
+    margin-left: 15px;
+    font-size: 17px;
+}
+.item-bar1 h3{
+    font-weight: 100;
+    font-size: 17px;
+    margin-left: 30px;
+}
+
+/* .a2-nme{
    
     display: flex;
-    /* justify-content: space-around; */
     font-family: SoDoSans_Semibold,Helvetica,sans-serif;
    
 }
@@ -197,7 +212,7 @@ header ul   :active{
 .a2-nme6 p{
     margin-left: 136px;
     margin-top: 9px;
-}
+} */
 .cat-log{        
     width: 100%;
     height: 330px;
@@ -260,6 +275,9 @@ header ul   :active{
     height: 240px;
     background: #edebe9;
     
+}
+.phone{
+    display: none;
 }
 
 
@@ -752,32 +770,186 @@ header ul   :active{
 @media(max-width: 767px){
     .main-head{
         position: relative;
-        height: 220px;
+        height: 235px;
     }
     .logo img{
-        width:90px;
+        width:60px;
         margin-bottom: 85px;
-        margin-left: 150px;
+        margin-left: 136px;
 
     }
     header ul {
-        padding-left: 0px;
+        padding-left: 21px;
         margin-left: -230px;
-        margin-top: 145px;
+        margin-top: 107px;
     } 
     header ul a{
         padding: 19px;
         font-weight: 700;
     } 
+    .search-area img{
+        width: 16px;
+    margin-left: -55px;
+    }
     .search-area{
-        display: none;
+        margin-left: -280px;
+        margin-top: 178px;
+        width: 164px;
+        height: 30px;
     }
     .profile{
-        margin-left: -95px;
-        margin-top: 49px;
+        margin-left: -65px;
+        margin-top: 182px;
+    }
+    .pannel{
+        height: 100px;
+    }
+    .pannel a .pannel1{
+        margin-top: 0px;
+        margin-left: 13px;
+        margin-right: 112px;
+        font-size: large;
+        margin-top: 28px;
+
+    }
+    .pannel2{
+        width: 85px;
+        height: 28px;
+    }
+    .pannel a .pannel2{
+        margin-top: 48px;
+        margin-left: -101px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .load-item{
+        height: 1050px;
+        
+    }
+    .item-bar{
+        width: 100%;
+    }
+    .item-bar1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .item-bar h2{
+        margin-left: 10px;
+        font-size: 21px;
+    }
+    .a1-img img{
+        width: 100px;
+        height: 100px;
+    }
+      
+    .item-bar .a1-img{
+        margin-left: 50px;
+       
+    }
+    .mini-cat h2{
+        margin-left: -99px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .menu a{
         display: none;
     }
+    .leaf img{
+        margin-left: -283px;
+        margin-top: -35px;
+    }
+    .card-02{
+        display: none;
+    }
+    .card-03{
+        display: none;
+    }
+    .dis-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-01{
+        /* margin-left: -12px; */
+        width: 348px;
+        margin: auto;
+    }
+    .phone{
+        display: inline;
+        margin-left: 10px;
         
+    }
+    .phone button{
+        width: 108px;
+        height:35px ;
+        border-radius: 50px;
+        border: 1px solid rgb(15, 0, 0);
+        margin-left: 171px;
+        margin-top: 8px;
+        background:#1e3932 ;
+        color: #ffffff;
+    }
+    .dash-promo{
+        width: 100%;
+    }
+    .details h3{
+        margin-right: -184px;
+    }
+    .details p{
+        margin-right: -83px;
+    }
+    .price{
+        margin-top: -70px;
+    }
+    .command{
+        display: none;
+    }
+    .order-btn button{
+        
+        margin-left: -110px;
+        width: 107px;
+        height: 33px;
+        margin-top: 23px;
+    }
+    .final-set{
+        height: 447px;
+    }
+    .coffee-world h2{
+        margin-left: -4px;
+        font-size: 20px;
+    }
+    .cfi-p{
+        display: none;
+    }
+    .final-frame img{
+        height: 270px;
+        width: 90%;
+    }
+    .card-title{
+        left: 41px;
+        font-size: 10px;
+    }
+    .card-tree{
+        top: 103px;
+        left: 39px;
+        font-size: 12px;
+    }
+    .card-text{
+        top: 150px;
+        left: 40px;
+        font-size: 13px;
+    }
+    .coffee-card{
+        top: 207px;
+        left: 41px;
+    }
+    .coffee-card button{
+        width: 112px;
+        height: 29px;
+    }
+    .main-footer{
+        display: none;
+    }
     
-    
-}
+} 
+
+
