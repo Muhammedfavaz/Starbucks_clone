@@ -7,6 +7,9 @@ body{
     margin: 0px;
    
 }
+.head-bar-responsive{
+    display: none;
+}
 .load-item_respons{
     display: none;
 }
@@ -20,6 +23,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .head-bar{
     
     width: 95%;
@@ -184,38 +188,6 @@ header ul   :active{
     font-size: 17px;
     margin-left: 30px;
 }
-
-/* .a2-nme{
-   
-    display: flex;
-    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
-   
-}
-.a2-nme1 p{
-    margin-left: 98px;
-    margin-top: 9px;
-
-}
-.a2-nme2 p{
-    margin-left: 173px;
-    margin-top: 9px;
-}
-.a2-nme3 p{
-    margin-left: 197px;
-    margin-top: 9px;
-}
-.a2-nme4 p{
-    margin-left: 177px;
-    margin-top: 9px;
-}
-.a2-nme5 p{
-    margin-left: 132px;
-    margin-top: 9px;
-}
-.a2-nme6 p{
-    margin-left: 136px;
-    margin-top: 9px;
-} */
 .cat-log{        
     width: 100%;
     height: 330px;
@@ -257,6 +229,7 @@ header ul   :active{
 }
 
  .menu a{
+    color: black;
     text-decoration: none;
     margin-left: 207px;
     font-weight: 700;
@@ -699,6 +672,12 @@ header ul   :active{
     height: 87px;
     background:#ffffff;
 }
+.free-space .social{
+    display: none;
+}
+.free-space p{
+    display: none;
+}
 
 /* footer set-up style */
 .main-footer{
@@ -775,7 +754,51 @@ header ul   :active{
         position: relative;
         height: 235px;
     }
-    .logo{
+    .head-bar{
+        display: none;
+    }
+    .head-bar-responsive{
+        display: inline;
+    }
+    .head-bar-responsive .logo-responsive{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 35px;
+        margin-top: 60px;
+    }
+    .head-bar-responsive header{  
+        margin-right: 50px;
+    }
+    .search-area-responsive{
+        display: flex;
+        justify-content: flex-start;
+       
+        border-radius: 126.25rem;
+        box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+        width: 200px;
+        height: 40px;
+        margin-left: 225px;
+        padding-left: 40px;
+        padding-top: 3px;
+    
+    }
+    .search-area-responsive img{    
+        width: 18px;
+        margin-left: -28px;
+
+    }
+    .ty-sear-responsive{
+        width: 218px;
+        height: 35px;
+        border: none;
+    }
+    .profile-responsive{
+        margin-left: 473px;
+        margin-top: -35px;
+        margin-bottom: 29px;
+
+    }
+    /* .logo{
         display: flex;
         align-items: center;
 
@@ -786,14 +809,17 @@ header ul   :active{
         margin-left: 165px;
 
     }
-    header ul {
-        margin-left: -215px;
-        margin-top: 107px;
-    } 
-    header ul a{
-        padding: 19px;
-        font-weight: 700;
-    } 
+    header{
+        margin: 0px;
+    } */
+    /* header ul { */
+        /* margin-left: -215px;
+        margin-top: 107px; */
+    /* }  */
+    /* header ul a{ */
+        /* padding: 19px;
+        font-weight: 700; */
+    /* } 
     .search-area img{
         width: 16px;
     margin-left: -55px;
@@ -807,7 +833,7 @@ header ul   :active{
     .profile{
         margin-left: -65px;
         margin-top: 182px;
-    }
+    } */
     .pannel{
         height: 100px;
     }
@@ -831,6 +857,40 @@ header ul   :active{
     }
     .load-item{
         display: none;
+    }
+    .load-item_respons{
+        display: block;
+        display: flex;
+        padding-bottom: 145px;
+        justify-content: center;    
+    }
+    .item-bar2{
+        
+        display: flex;
+        justify-content: space-evenly;    
+    }
+    .load-item_respons img{
+        margin-left: 30px;    
+    }
+    .load-item_respons .item-bar2{
+        margin-left: 8px;
+    }
+    .load-item_respons img{
+        width: 50%;
+        height: 50%;
+    }
+    .load-item_respons p{
+        font-size: 17px;
+        color: #000;
+    }
+    .load-item_respons a{
+        text-decoration: none;
+    }
+    .load-item_respons p{
+        margin-left: 35px;
+    }
+    .load-item_respons h3{
+        margin-left: 55px;
     }
     .mini-cat h2{
         margin-left: -99px;
@@ -884,10 +944,10 @@ header ul   :active{
         width: 100%;
     }
     .details h3{
-        margin-right: -184px;
+        margin-right: 0px;
     }
     .details p{
-        margin-right: -83px;
+        margin-right: -70px;
     }
     .price{
         margin-top: -70px;
@@ -896,7 +956,8 @@ header ul   :active{
         display: none;
     }
     .order-btn button{
-        
+        background: #fff;
+        color: #000;
         margin-left: -110px;
         width: 107px;
         height: 33px;
@@ -935,53 +996,35 @@ header ul   :active{
         left: 41px;
     }
     .coffee-card button{
+        color: #000;
+        background: #fff;
         width: 112px;
         height: 29px;
     }
     .main-footer{
         display: none;
     }
+    .free-space img{
+        width:38px ;
 
-
-    .load-item_respons{
+    }
+    .free-space .social{
         display: block;
-        display: flex;
-        padding-bottom: 145px;
-        justify-content: center;
+        margin-left: 27px;
+
+    }
+    .free-space  p{
+        display: block;
+        font-size: 11px;
+        font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+        margin-left: 30px;
+        font-weight: 600;
+        /* margin-top: -41px; */
+    }
         
 
-        
-    }
-    .item-bar2{
-        
-        display: flex;
-        justify-content: space-evenly;
-        
-        
-    }
-    .load-item_respons img{
-        margin-left: 30px;    
-    }
-    .load-item_respons .item-bar2{
-        margin-left: 8px;
-    }
-    .load-item_respons img{
-        width: 50%;
-        height: 50%;
-    }
-    .load-item_respons p{
-        font-size: 17px;
-        color: #000;
-    }
-    .load-item_respons a{
-        text-decoration: none;
-    }
-    .load-item_respons p{
-        margin-left: 35px;
-    }
-    .load-item_respons h3{
-        margin-left: 55px;
-    }
+
+   
 
     
 } 
